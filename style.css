@@ -1,0 +1,95 @@
+body {
+    background-color: #FFFFF0; /* Ivory */
+    color: #333333; /* Charcoal */
+    font-family: "Times New Roman", serif;
+    line-height: 1.6;
+    max-width: 900px; /* Widened slightly to give the two columns proper breathing room */
+    margin: 40px auto;
+    padding: 20px;
+    border-left: 1px solid #d1d1d1;
+}
+
+header {
+    border-bottom: 2px solid #333333;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+/* Minimalist Navigation Styles */
+nav {
+    margin-top: 15px;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover, 
+.nav-links a.active {
+    color: #777777;
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 20px;
+}
+
+/* Two-Column Translation Grid */
+.translation-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px; /* Clear gutter space between languages */
+    align-items: start;
+}
+
+.column {
+    width: 100%;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+}
